@@ -15,6 +15,7 @@ jobs:
             dotnet build
       - run:
           name: Run App
+          path: "./CrptopalsChallenge.Test"
           command:
             dotnet run
 
