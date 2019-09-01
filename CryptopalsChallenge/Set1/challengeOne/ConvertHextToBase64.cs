@@ -54,6 +54,12 @@ namespace CryptopalsChallenge.Set1.challengeOne
                 case "D":
                     binaryString = "1101";
                     break;
+                case "E":
+                    binaryString = "1110";
+                    break;
+                case "F":
+                    binaryString = "1111";
+                    break;
                 default:
                     binaryString = "-1";
                     break;
