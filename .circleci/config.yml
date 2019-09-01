@@ -13,6 +13,11 @@ jobs:
           name: Build App
           command:
             dotnet build
+      - test: 
+          override: 
+          - dotnet test
+          path: "./CrptopalsChallenge.Test"
+
       - run:
           name: Run App
           path: "./CrptopalsChallenge.Test"
