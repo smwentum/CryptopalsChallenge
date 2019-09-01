@@ -12,6 +12,10 @@ jobs:
       - run: 
         name: Build App
         command:
-          dotent run
-          
+          dotnet build
+      - run:
+        name: Run App
+        command:
+          dotnet run
+
 
