@@ -41,7 +41,7 @@ namespace CrptopalsChallenge.Test
             //ACT
             string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
             //Assert
-            Assert.Equal("0001", ans);
+            Assert.Equal("0010", ans);
         }
 
         [Fact]
@@ -52,7 +52,18 @@ namespace CrptopalsChallenge.Test
             //ACT
             string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
             //Assert
-            Assert.Equal("0001", ans);
+            Assert.Equal("0011", ans);
+        }
+
+        [Fact]
+        public void fourToBinary()
+        {
+            //Arrange
+            string hexNum = "4";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("0100", ans);
         }
 
 
