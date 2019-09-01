@@ -110,7 +110,52 @@ namespace CrptopalsChallenge.Test
             Assert.Equal("1000", ans);
         }
 
-   
+        [Fact]
+        public void nineToBinary()
+        {
+            //Arrange
+            string hexNum = "9";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1001", ans);
+        }
+
+        [Fact]
+        public void aToBinary()
+        {
+            //Arrange
+            string hexNum = "A";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1010", ans);
+        }
+
+        [Fact]
+        public void bToBinary()
+        {
+            //Arrange
+            string hexNum = "B";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1011", ans);
+        }
+
+
+        [Fact]
+        public void cToBinary()
+        {
+            //Arrange
+            string hexNum = "C";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1100", ans);
+        }
+
+
 
     }
 }
