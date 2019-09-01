@@ -1,9 +1,8 @@
 language: csharp
-solution: CryptopalsChallenge.sln
-mono: none
-dotnet: 2.2.100
+solution: CrptopalsChallenge.sln
 install:
-- dotnet restore
+  - nuget restore CrptopalsChallenge.sln
+  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
-- dotnet build
-- dotnet test CryptopalsChallenge.Tests/CryptopalsChallenge.Tests.csproj
+  - msbuild /p:Configuration=Release CrptopalsChallenge.sln
+  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./CrptopalsChallenge.Tests/bin/Release/netcoreapp2.2/CrptopalsChallenge.Tests.dll
