@@ -33,6 +33,17 @@ namespace CrptopalsChallenge.Test
             Assert.Equal("0001", ans);
         }
 
+        [Fact]
+        public void twoToBinary()
+        {
+            //Arrange
+            string hexNum = "2";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("0001", ans);
+        }
+
 
 
     }
