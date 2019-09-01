@@ -44,6 +44,16 @@ namespace CrptopalsChallenge.Test
             Assert.Equal("0001", ans);
         }
 
+        [Fact]
+        public void threeToBinary()
+        {
+            //Arrange
+            string hexNum = "3";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("0001", ans);
+        }
 
 
     }
