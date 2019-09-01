@@ -110,7 +110,95 @@ namespace CrptopalsChallenge.Test
             Assert.Equal("1000", ans);
         }
 
-   
+        [Fact]
+        public void nineToBinary()
+        {
+            //Arrange
+            string hexNum = "9";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1001", ans);
+        }
+
+        [Fact]
+        public void aToBinary()
+        {
+            //Arrange
+            string hexNum = "A";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1010", ans);
+        }
+
+        [Fact]
+        public void bToBinary()
+        {
+            //Arrange
+            string hexNum = "B";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1011", ans);
+        }
+
+
+        [Fact]
+        public void cToBinary()
+        {
+            //Arrange
+            string hexNum = "C";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1100", ans);
+        }
+
+        [Fact]
+        public void dToBinary()
+        {
+            //Arrange
+            string hexNum = "D";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1101", ans);
+        }
+
+        [Fact]
+        public void eToBinary()
+        {
+            //Arrange
+            string hexNum = "E";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1110", ans);
+        }
+
+        [Fact]
+        public void fToBinary()
+        {
+            //Arrange
+            string hexNum = "F";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("1111", ans);
+        }
+
+        [Fact]
+        public void GToBinary()
+        {
+            //Arrange
+            string hexNum = "G";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("-1", ans);
+        }
+
 
     }
 }
