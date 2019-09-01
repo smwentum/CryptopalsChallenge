@@ -1,5 +1,5 @@
 language: csharp
-dist: trusty
+solution: CryptopalsChallenge.sln
 mono: none
 dotnet: 2.2.100
 install:
