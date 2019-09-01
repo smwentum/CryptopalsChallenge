@@ -66,6 +66,16 @@ namespace CrptopalsChallenge.Test
             Assert.Equal("0100", ans);
         }
 
+        [Fact]
+        public void fiveToBinary()
+        {
+            //Arrange
+            string hexNum = "5";
+            //ACT
+            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            //Assert
+            Assert.Equal("0101", ans);
+        }
 
     }
 }
