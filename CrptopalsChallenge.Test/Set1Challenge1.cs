@@ -52,7 +52,7 @@ namespace CrptopalsChallenge.Test
             //ACT
             string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
             //Assert
-            Assert.Equal("0001", ans);
+            Assert.Equal("0011", ans);
         }
 
 
