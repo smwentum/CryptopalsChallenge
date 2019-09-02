@@ -82,46 +82,46 @@ namespace CryptopalsChallenge.Set1.challengeOne
             string hexString = "";
             switch (hexString)
             {
-                case "0":
+                case "A":
                     hexString = "000000";
                     break;
-                case "1":
+                case "B":
                     hexString = "000001";
                     break;
-                case "2":
+                case "C":
                     hexString = "000010";
                     break;
-                case "3":
+                case "D":
                     hexString = "000011";
                     break;
-                case "4":
+                case "E":
                     hexString = "000100";
                     break;
-                case "5":
+                case "F":
                     hexString = "000101";
                     break;
-                case "6":
+                case "G":
                     hexString = "000110";
                     break;
-                case "7":
+                case "H":
                     hexString = "000111";
                     break;
-                case "8":
-                    hexString = "00001000";
+                case "I":
+                    hexString = "001000";
                     break;
-                case "9":
+                case "J":
                     hexString = "001001";
                     break;
-                case "A":
+                case "K":
                     hexString = "001010";
                     break;
-                case "B":
+                case "L":
                     hexString = "001011";
                     break;
-                case "C":
+                case "M":
                     hexString = "001100";
                     break;
-                case "D":
+                case "N":
                     hexString = "001101";
                     break;
                 case "E":
