@@ -6,6 +6,11 @@ namespace CryptopalsChallenge.Set1.challengeOne
 {
     public class ConvertHextToBase64
     {
+        /// <summary>
+        /// this should be only one letter at time
+        /// </summary>
+        /// <param name="hexString">the hexadecimal digit you want to convert to binary</param>
+        /// <returns>the four digit binary code or -1 if it isn't a hexadecimal digit</returns>
         public static string convertHexToBinary(string hexString)
         {
             string binaryString = "";
@@ -66,6 +71,70 @@ namespace CryptopalsChallenge.Set1.challengeOne
             }
 
             return binaryString;
+        }
+        /// <summary>
+        /// converts six binary digits to a base 64 digit
+        /// </summary>
+        /// <param name="hexString"></param>
+        /// <returns>string "-1" if can't be converted otherwise the base 64 digit</returns>
+        public static string convertBinaryToBase64(string binaryString)
+        {
+            string hexString = "";
+            switch (hexString)
+            {
+                case "0":
+                    hexString = "000000";
+                    break;
+                case "1":
+                    hexString = "000001";
+                    break;
+                case "2":
+                    hexString = "000010";
+                    break;
+                case "3":
+                    hexString = "000011";
+                    break;
+                case "4":
+                    hexString = "000100";
+                    break;
+                case "5":
+                    hexString = "000101";
+                    break;
+                case "6":
+                    hexString = "000110";
+                    break;
+                case "7":
+                    hexString = "000111";
+                    break;
+                case "8":
+                    hexString = "00001000";
+                    break;
+                case "9":
+                    hexString = "001001";
+                    break;
+                case "A":
+                    hexString = "001010";
+                    break;
+                case "B":
+                    hexString = "001011";
+                    break;
+                case "C":
+                    hexString = "001100";
+                    break;
+                case "D":
+                    hexString = "001101";
+                    break;
+                case "E":
+                    hexString = "001110";
+                    break;
+                case "F":
+                    hexString = "001111";
+                    break;
+                default:
+                    hexString = "-1";
+                    break;
+            }
+            return hexString;
         }
     }
 }

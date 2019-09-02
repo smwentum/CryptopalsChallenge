@@ -189,7 +189,7 @@ namespace CrptopalsChallenge.Test
         }
 
         [Fact]
-        public void GToBinary()
+        public void gToBinary()
         {
             //Arrange
             string hexNum = "G";
