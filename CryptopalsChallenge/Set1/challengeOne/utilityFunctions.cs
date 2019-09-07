@@ -99,27 +99,70 @@ namespace CryptopalsChallenge.Set1.challengeOne
                 case "000100":
                     hexString = "E";
                     break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
+                case "000101":
+                    hexString = "F";
+                    break;
+                case "000110":
+                    hexString = "G";
+                    break;
+                case "000111":
+                    hexString = "H";
+                    break;
+                case "001000":
+                    hexString = "I";
+                    break;
+                case "001001":
+                    hexString = "J";
+                    break;
+                case "001010":
+                    hexString = "K";
+                    break;
+                case "001011":
+                    hexString = "L";
+                    break;
+                case "001100":
+                    hexString = "M";
+                    break;
+                case "001101":
+                    hexString = "N";
+                    break;
+                case "001110":
+                    hexString = "O";
+                    break;
+                case "001111":
+                    hexString = "P";
+                    break;
+                case "010000":
+                    hexString = "Q";
+                    break;
+                case "010001":
+                    hexString = "R";
+                    break;
+                case "010010":
+                    hexString = "S";
+                    break;
+                case "010011":
+                    hexString = "T";
+                    break;
+                case "010100":
+                    hexString = "U";
+                    break;
+                case "010101":
+                    hexString = "V";
+                    break;
+                case "010110":
+                    hexString = "W";
+                    break;
+                case "010111":
+                    hexString = "X";
+                    break;
+                case "011000":
+                    hexString = "Y";
+                    break;
+                case "011001":
+                    hexString = "Z";
+                    break;
+
                 //case "000000":
                 //    hexString = "A";
                 //    break;
