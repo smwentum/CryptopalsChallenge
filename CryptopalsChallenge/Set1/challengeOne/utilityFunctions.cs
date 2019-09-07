@@ -162,6 +162,25 @@ namespace CryptopalsChallenge.Set1.challengeOne
                 case "011001":
                     hexString = "Z";
                     break;
+                case "011010":
+                    hexString = "a";
+                    break;
+                case "011011":
+                    hexString = "b";
+                    break;
+                case "011100":
+                    hexString = "c";
+                    break;
+                case "011101":
+                    hexString = "d";
+                    break;
+                case "011110":
+                    hexString = "e";
+                    break;
+                case "011111":
+                    hexString = "f";
+                    break;
+                
 
                 //case "000000":
                 //    hexString = "A";
