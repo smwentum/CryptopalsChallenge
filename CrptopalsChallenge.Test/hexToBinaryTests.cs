@@ -7,7 +7,7 @@ using CryptopalsChallenge.Set1.challengeOne;
 
 namespace CrptopalsChallenge.Test
 {
-    public class Set1Challenge1
+    public class hexToBinaryTests
     {
 
         [Fact]
