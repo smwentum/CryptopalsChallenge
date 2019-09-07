@@ -180,7 +180,103 @@ namespace CryptopalsChallenge.Set1.challengeOne
                 case "011111":
                     hexString = "f";
                     break;
-                
+                case "100000":
+                    hexString = "g";
+                    break;
+                case "100001":
+                    hexString = "h";
+                    break;
+                case "100010":
+                    hexString = "i";
+                    break;
+                case "100011":
+                    hexString = "j";
+                    break;
+                case "100100":
+                    hexString = "k";
+                    break;
+                case "100101":
+                    hexString = "l";
+                    break;
+                case "100110":
+                    hexString = "m";
+                    break;
+                case "100111":
+                    hexString = "n";
+                    break;
+                case "101000":
+                    hexString = "o";
+                    break;
+                case "101001":
+                    hexString = "p";
+                    break;
+                case "101010":
+                    hexString = "q";
+                    break;
+                case "101011":
+                    hexString = "r";
+                    break;
+                case "101100":
+                    hexString = "s";
+                    break;
+                case "101101":
+                    hexString = "t";
+                    break;
+                case "101110":
+                    hexString = "u";
+                    break;
+                case "101111":
+                    hexString = "v";
+                    break;
+                case "110000":
+                    hexString = "w";
+                    break;
+                case "110001":
+                    hexString = "x";
+                    break;
+                case "110010":
+                    hexString = "y";
+                    break;
+                case "110011":
+                    hexString = "z";
+                    break;
+                case "110100":
+                    hexString = "0";
+                    break;
+                case "110101":
+                    hexString = "1";
+                    break;
+                case "110110":
+                    hexString = "2";
+                    break;
+                case "110111":
+                    hexString = "3";
+                    break;
+                case "111000":
+                    hexString = "4";
+                    break;
+                case "111001":
+                    hexString = "5";
+                    break;
+                case "111010":
+                    hexString = "6";
+                    break;
+                case "111011":
+                    hexString = "7";
+                    break;
+                case "111100":
+                    hexString = "8";
+                    break;
+                case "111101":
+                    hexString = "9";
+                    break;
+                case "111110":
+                    hexString = "+";
+                    break;
+                case "111111":
+                    hexString = "/";
+                    break;
+
 
                 //case "000000":
                 //    hexString = "A";
