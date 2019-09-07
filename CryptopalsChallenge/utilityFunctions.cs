@@ -15,7 +15,7 @@ namespace CryptopalsChallenge.Set1.challengeOne
         {
             string binaryString = "";
 
-            switch (hexString)
+            switch (hexString.ToUpper())
             {
                 case "0":
                     binaryString = "0000";
@@ -277,20 +277,7 @@ namespace CryptopalsChallenge.Set1.challengeOne
                     hexString = "/";
                     break;
 
-
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                default:
+               default:
                     hexString = "-1";
                     break;
             }
