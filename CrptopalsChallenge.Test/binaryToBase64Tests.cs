@@ -296,5 +296,60 @@ namespace CrptopalsChallenge.Test
             //Assert
             Assert.Equal("Z", ans);
         }
+
+        [Fact]
+        public void twentySixToBase64()
+        {
+            //Arrange
+            string hexNum = "011010";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("a", ans);
+        }
+
+        [Fact]
+        public void twentySevenToBase64()
+        {
+            //Arrange
+            string hexNum = "011011";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("b", ans);
+        }
+
+        [Fact]
+        public void twentyEightToBase64()
+        {
+            //Arrange
+            string hexNum = "011100";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("c", ans);
+        }
+
+        [Fact]
+        public void twentyNineToBase64()
+        {
+            //Arrange
+            string hexNum = "011101";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("d", ans);
+        }
+
+        [Fact]
+        public void thirtyToBase64()
+        {
+            //Arrange
+            string hexNum = "011110";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("e", ans);
+        }
     }
 }
