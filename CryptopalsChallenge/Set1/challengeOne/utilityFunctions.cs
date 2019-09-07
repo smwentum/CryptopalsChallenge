@@ -80,25 +80,25 @@ namespace CryptopalsChallenge.Set1.challengeOne
         public static string convertBinaryToBase64(string binaryString)
         {
             string hexString = "";
-            switch (hexString)
+            switch (binaryString)
             {
 
 
                 case "000000":
                     hexString = "A";
                     break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
-                //case "000000":
-                //    hexString = "A";
-                //    break;
+                case "000001":
+                    hexString = "B";
+                    break;
+                case "000010":
+                    hexString = "C";
+                    break;
+                case "000011":
+                    hexString = "D";
+                    break;
+                case "000100":
+                    hexString = "E";
+                    break;
                 //case "000000":
                 //    hexString = "A";
                 //    break;
