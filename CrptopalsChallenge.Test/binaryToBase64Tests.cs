@@ -351,5 +351,372 @@ namespace CrptopalsChallenge.Test
             //Assert
             Assert.Equal("e", ans);
         }
+
+        [Fact]
+        public void thirtyOneToBase64()
+        {
+            //Arrange
+            string hexNum = "011111";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("f", ans);
+        }
+
+
+        [Fact]
+        public void thrityTwoToBase64()
+        {
+            //Arrange
+            string hexNum = "100000";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("g", ans);
+        }
+
+        [Fact]
+        public void thrityThreeToBase64()
+        {
+            //Arrange
+            string hexNum = "100001";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("h", ans);
+        }
+
+        [Fact]
+        public void thrityFourToBase64()
+        {
+            //Arrange
+            string hexNum = "100010";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("i", ans);
+        }
+
+        [Fact]
+        public void thrityFiveToBase64()
+        {
+            //Arrange
+            string hexNum = "100011";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("j", ans);
+        }
+
+        [Fact]
+        public void thirtySixToBase64()
+        {
+            //Arrange
+            string hexNum = "100100";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("k", ans);
+        }
+
+        [Fact]
+        public void thirtySevenToBase64()
+        {
+            //Arrange
+            string hexNum = "100101";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("l", ans);
+        }
+
+        [Fact]
+        public void thrityEightToBase64()
+        {
+            //Arrange
+            string hexNum = "100110";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("m", ans);
+        }
+
+        [Fact]
+        public void thrityNineToBase64()
+        {
+            //Arrange
+            string hexNum = "100111";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("n", ans);
+        }
+
+        [Fact]
+        public void fourtyToBase64()
+        {
+            //Arrange
+            string hexNum = "101000";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("o", ans);
+        }
+
+        [Fact]
+        public void fourtyOneToBase64()
+        {
+            //Arrange
+            string hexNum = "101001";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("p", ans);
+        }
+
+        [Fact]
+        public void fourtyTwoToBase64()
+        {
+            //Arrange
+            string hexNum = "101010";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("q", ans);
+        }
+
+        [Fact]
+        public void fourtyThreeToBase64()
+        {
+            //Arrange
+            string hexNum = "101011";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("r", ans);
+        }
+
+        [Fact]
+        public void FourtyFourToBase64()
+        {
+            //Arrange
+            string hexNum = "101100";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("s", ans);
+        }
+
+        [Fact]
+        public void fourtyFiveToBase64()
+        {
+            //Arrange
+            string hexNum = "101101";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("t", ans);
+        }
+
+        [Fact]
+        public void fourtySixToBase64()
+        {
+            //Arrange
+            string hexNum = "101110";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("u", ans);
+        }
+
+        [Fact]
+        public void fourtySevenToBase64()
+        {
+            //Arrange
+            string hexNum = "101111";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("v", ans);
+        }
+
+        [Fact]
+        public void fourtyEightToBase64()
+        {
+            //Arrange
+            string hexNum = "110000";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("w", ans);
+        }
+
+
+        [Fact]
+        public void fourtyNineToBase64()
+        {
+            //Arrange
+            string hexNum = "110001";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("x", ans);
+        }
+
+        [Fact]
+        public void fiftyToBase64()
+        {
+            //Arrange
+            string hexNum = "110010";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("y", ans);
+        }
+
+        [Fact]
+        public void fiftyOneToBase64()
+        {
+            //Arrange
+            string hexNum = "110011";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("z", ans);
+        }
+
+        [Fact]
+        public void fiftyTwoToBase64()
+        {
+            //Arrange
+            string hexNum = "110100";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("0", ans);
+        }
+
+        [Fact]
+        public void fiftyThreeOneToBase64()
+        {
+            //Arrange
+            string hexNum = "110101";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("1", ans);
+        }
+
+
+        [Fact]
+        public void fiftyFourToBase64()
+        {
+            //Arrange
+            string hexNum = "110110";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("2", ans);
+        }
+
+
+        [Fact]
+        public void fiftyFiveToBase64()
+        {
+            //Arrange
+            string hexNum = "110111";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("3", ans);
+        }
+
+        [Fact]
+        public void fiftySixToBase64()
+        {
+            //Arrange
+            string hexNum = "111000";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("4", ans);
+        }
+
+        [Fact]
+        public void fiftySevenToBase64()
+        {
+            //Arrange
+            string hexNum = "111001";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("5", ans);
+        }
+
+        [Fact]
+        public void fiftyEightToBase64()
+        {
+            //Arrange
+            string hexNum = "111010";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("6", ans);
+        }
+
+        [Fact]
+        public void fiftyNineToBase64()
+        {
+            //Arrange
+            string hexNum = "111011";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("7", ans);
+        }
+
+        [Fact]
+        public void sixtyToBase64()
+        {
+            //Arrange
+            string hexNum = "111100";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("8", ans);
+        }
+
+        [Fact]
+        public void sixtyOneToBase64()
+        {
+            //Arrange
+            string hexNum = "111101";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("9", ans);
+        }
+
+        [Fact]
+        public void sixtyTwoToBase64()
+        {
+            //Arrange
+            string hexNum = "111110";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("+", ans);
+        }
+
+        [Fact]
+        public void SixtyThreeToBase64()
+        {
+            //Arrange
+            string hexNum = "111111";
+            //ACT
+            string ans = ConvertHextToBase64.convertBinaryToBase64(hexNum);
+            //Assert
+            Assert.Equal("/", ans);
+        }
     }
 }
