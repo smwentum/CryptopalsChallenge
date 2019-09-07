@@ -6,6 +6,11 @@ namespace CryptopalsChallenge.Set1.challengeOne
 {
     public class ConvertHextToBase64
     {
+        /// <summary>
+        /// this should be only one letter at time
+        /// </summary>
+        /// <param name="hexString">the hexadecimal digit you want to convert to binary</param>
+        /// <returns>the four digit binary code or -1 if it isn't a hexadecimal digit</returns>
         public static string convertHexToBinary(string hexString)
         {
             string binaryString = "";
@@ -66,6 +71,72 @@ namespace CryptopalsChallenge.Set1.challengeOne
             }
 
             return binaryString;
+        }
+        /// <summary>
+        /// converts six binary digits to a base 64 digit
+        /// </summary>
+        /// <param name="hexString"></param>
+        /// <returns>string "-1" if can't be converted otherwise the base 64 digit</returns>
+        public static string convertBinaryToBase64(string binaryString)
+        {
+            string hexString = "";
+            switch (hexString)
+            {
+
+
+                case "000000":
+                    hexString = "A";
+                    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                //case "000000":
+                //    hexString = "A";
+                //    break;
+                default:
+                    hexString = "-1";
+                    break;
+            }
+            return hexString;
         }
     }
 }

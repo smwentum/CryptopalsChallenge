@@ -7,7 +7,7 @@ using CryptopalsChallenge.Set1.challengeOne;
 
 namespace CrptopalsChallenge.Test
 {
-    public class Set1Challenge1
+    public class hexToBinaryTests
     {
 
         [Fact]
@@ -189,7 +189,7 @@ namespace CrptopalsChallenge.Test
         }
 
         [Fact]
-        public void GToBinary()
+        public void gToBinary()
         {
             //Arrange
             string hexNum = "G";
