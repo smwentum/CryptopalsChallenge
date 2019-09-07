@@ -20,8 +20,7 @@ CircleCI says that all my tests are:
 [![CircleCI](https://circleci.com/gh/smwentum/CryptopalsChallenge.svg?style=svg)](https://circleci.com/gh/smwentum/CryptopalsChallenge)
 
 
-Coveralls says my converage is: 
-[![Coverage Status](https://coveralls.io/repos/github/smwentum/CryptopalsChallenge/badge.svg?branch=master)](https://coveralls.io/github/smwentum/CryptopalsChallenge?branch=master)
+Coveralls says my coverage is: 
 
 
 
