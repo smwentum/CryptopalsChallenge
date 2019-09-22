@@ -12,11 +12,11 @@ namespace CryptopalsChallenge.Set1.challengeOne
             string binaryAns = "";
             foreach (char h in hexString)
             {
-                binaryAns += ConvertHextToBase64.convertHexToBinary(h.ToString());
+                binaryAns += Utility.convertHexCharToBinary(h.ToString());
             }
             while (  0 < binaryAns.Length)
             {
-                ans += ConvertHextToBase64.convertBinaryToBase64(binaryAns.Substring(0,6));
+                ans += Utility.convertBinaryToBase64(binaryAns.Substring(0,6));
                 binaryAns = binaryAns.Substring(6);
             }
 
