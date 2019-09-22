@@ -72,6 +72,70 @@ namespace CryptopalsChallenge.Set1.challengeOne
 
             return binaryString;
         }
+
+
+        public static string covertBinaryToHex(string hexString)
+        {
+            string binaryString = "";
+
+            switch (hexString.ToUpper())
+            {
+                case "0000":
+                    binaryString = "0";
+                    break;
+                case "0001":
+                    binaryString = "1";
+                    break;
+                case "0010":
+                    binaryString = "2";
+                    break;
+                case "0011":
+                    binaryString = "3";
+                    break;
+                case "0100":
+                    binaryString = "4";
+                    break;
+                case "0101":
+                    binaryString = "5";
+                    break;
+                case "0110":
+                    binaryString = "6";
+                    break;
+                case "0111":
+                    binaryString = "7";
+                    break;
+                case "1000":
+                    binaryString = "8";
+                    break;
+                case "1001":
+                    binaryString = "9";
+                    break;
+                case "1010":
+                    binaryString = "A";
+                    break;
+                case "1011":
+                    binaryString = "B";
+                    break;
+                case "1100":
+                    binaryString = "C";
+                    break;
+                case "1101":
+                    binaryString = "D";
+                    break;
+                case "1110":
+                    binaryString = "E";
+                    break;
+                case "1111":
+                    binaryString = "F";
+                    break;
+                default:
+                    binaryString = "-1";
+                    break;
+            }
+
+            return binaryString;
+        }
+
         /// <summary>
         /// converts six binary digits to a base 64 digit
         /// </summary>
