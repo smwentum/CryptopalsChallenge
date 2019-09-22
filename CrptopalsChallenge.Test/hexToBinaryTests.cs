@@ -16,7 +16,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "0";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("0000", ans);
         }
@@ -28,7 +28,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "1";
             //ACT
-           string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+           string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("0001", ans);
         }
@@ -39,7 +39,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "2";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("0010", ans);
         }
@@ -50,7 +50,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "3";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("0011", ans);
         }
@@ -61,7 +61,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "4";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("0100", ans);
         }
@@ -72,7 +72,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "5";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("0101", ans);
         }
@@ -83,7 +83,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "6";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("0110", ans);
         }
@@ -94,7 +94,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "7";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("0111", ans);
         }
@@ -105,7 +105,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "8";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("1000", ans);
         }
@@ -116,7 +116,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "9";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("1001", ans);
         }
@@ -127,7 +127,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "A";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("1010", ans);
         }
@@ -138,7 +138,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "B";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("1011", ans);
         }
@@ -150,7 +150,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "C";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("1100", ans);
         }
@@ -161,7 +161,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "D";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("1101", ans);
         }
@@ -172,7 +172,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "E";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("1110", ans);
         }
@@ -183,7 +183,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "F";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("1111", ans);
         }
@@ -194,7 +194,7 @@ namespace CrptopalsChallenge.Test
             //Arrange
             string hexNum = "G";
             //ACT
-            string ans = ConvertHextToBase64.convertHexToBinary(hexNum);
+            string ans = Utility.convertHexCharToBinary(hexNum);
             //Assert
             Assert.Equal("-1", ans);
         }

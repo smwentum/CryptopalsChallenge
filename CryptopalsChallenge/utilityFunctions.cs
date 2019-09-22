@@ -4,14 +4,14 @@ using System.Text;
 
 namespace CryptopalsChallenge.Set1.challengeOne
 {
-    public class ConvertHextToBase64
+    public class Utility
     {
         /// <summary>
         /// this should be only one letter at time
         /// </summary>
         /// <param name="hexString">the hexadecimal digit you want to convert to binary</param>
         /// <returns>the four digit binary code or -1 if it isn't a hexadecimal digit</returns>
-        public static string convertHexToBinary(string hexString)
+        public static string convertHexCharToBinary(string hexString)
         {
             string binaryString = "";
 
@@ -73,8 +73,28 @@ namespace CryptopalsChallenge.Set1.challengeOne
             return binaryString;
         }
 
+        public static string convertHexStringToBinaryString(string hexString)
+        {
 
-        public static string covertBinaryToHex(string hexString)
+
+            string hex = "";
+            foreach (char c in hexString.ToUpper())
+            {
+                hex += convertHexCharToBinary(c.ToString());
+            }
+
+            return hex;
+
+
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="hexString"></param>
+        /// <returns></returns>
+        public static string covertBinaryCharToHex(string hexString)
         {
             string binaryString = "";
 
@@ -135,6 +155,24 @@ namespace CryptopalsChallenge.Set1.challengeOne
 
             return binaryString;
         }
+
+        public static string convertBinaryStringToHexString(string binaryString)
+        {
+            string ans = "";
+            if (binaryString.Length % 4 == 0)
+            {
+                for (int i = 0; i < binaryString.Length / 4; i++)
+                {
+                    ans += covertBinaryCharToHex(binaryString.Substring(i * 4, 4));
+                }
+            }
+
+            return ans;
+        }
+
+     
+
+
 
         /// <summary>
         /// converts six binary digits to a base 64 digit
@@ -347,5 +385,11 @@ namespace CryptopalsChallenge.Set1.challengeOne
             }
             return hexString;
         }
+
+
+
+
+
+
     }
 }
